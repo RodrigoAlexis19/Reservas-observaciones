@@ -1,0 +1,87 @@
+
+/* === Estilos base: Ecoturismo - versión más rica en verdes === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #4de94d; /* Verde hoja suave pero no pálido */
+  margin: 0;
+  padding: 2rem;
+  color: #1e2b20;
+}
+
+h1, h2 {
+  color: #145a32; /* Verde oscuro tipo bosque */
+}
+
+section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 64, 0, 0.15);
+}
+
+/* === Formulario === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input, select, textarea {
+  padding: 0.6rem;
+  border: 1px solid #81c784;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  background-color: #e0f2f1;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+button {
+  background-color: #2e7d32; /* Verde fuerte */
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+/* === Lista de visitas === */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  background-color: #f0fbe9; /* Verde muy claro */
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+}
+
+li button {
+  background-color: #c62828;
+  margin-top: 0.5rem;
+}
+
+li button:hover {
+  background-color: #8e0000;
+}
+
+/* === Imágenes de especies === */
+img {
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  max-width: 120px;
+  height: auto;
+}
